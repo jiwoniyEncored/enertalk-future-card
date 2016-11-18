@@ -12,12 +12,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>EnerTalk Future Card</h2>
       </div>
-
-        {/* TODO: @yongdamsh To view multiple components, apply react-router */}
-        <Todo />
-      </div>
-    );
-  }
+      {/* TODO: @yongdamsh To view multiple components, apply react-router */}
+      <Todo />
+    </div>
+  );
 }
 
 export default App;
